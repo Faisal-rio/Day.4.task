@@ -1,0 +1,40 @@
+// Create a JavaScript object representing your resume data
+
+const resumeData = {
+    name: "Faisal rio",
+    contact: {
+      email: "xxyyff@email.com",
+      phone: "123-456-7890",
+      address: "12 Main St, City, State, ZIP",
+    },
+    education: [
+      {
+        degree: "Bachelor of computer applications",
+        school: "yyy of XYZ",
+        graduationYear: 2022,
+      },
+    ],
+    experience: [
+      {
+        title: "Web Developer",
+        company: "not yet",
+        startDate: "not yet",
+        endDate: "not yet",
+        description: "Developed and maintained websites...",
+      },
+      {
+        title: "Front-end Developer",
+        company: "Web Solutions Inc.",
+        startDate: "not yet",
+        endDate: "not yet",
+        description: "responsive web interfaces...",
+      },
+    ],
+    skills: ["JavaScript", "HTML/CSS", "React", "Node.js", "Git", "UI/UX Design"],
+  };
+  
+  // Convert the JavaScript object to a JSON string
+  const resumeJSON = JSON.stringify(resumeData, null, 2);
+  
+  console.log(resumeJSON);
+  
